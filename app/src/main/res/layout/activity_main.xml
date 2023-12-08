@@ -62,13 +62,14 @@
         tools:ignore="MissingConstraints">
 
         <EditText
-            android:id="@+id/editTextNumber1"
+            android:id="@+id/et2"
             android:layout_width="134dp"
             android:layout_height="34dp"
             android:layout_marginLeft="28dp"
             android:layout_marginTop="120dp"
             android:backgroundTint="#FAF6F6"
             android:ems="10"
+            android:textColor="#FF9800"
             android:inputType="number"
             android:padding="0dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -76,12 +77,12 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
-            android:id="@+id/editTextNumber2"
+            android:id="@+id/et1"
             android:layout_width="134dp"
             android:layout_height="41dp"
             android:layout_marginLeft="28dp"
             android:layout_marginTop="70dp"
-            android:backgroundTint="#F6F4F4"
+            android:backgroundTint="#FAF6F6"
             android:ems="10"
             android:inputType="number"
             android:textColor="#FF9800"
@@ -135,7 +136,7 @@
             tools:layout_editor_absoluteY="268dp" />
 
         <TextView
-            android:id="@+id/result"
+            android:id="@+id/res"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="200dp"
