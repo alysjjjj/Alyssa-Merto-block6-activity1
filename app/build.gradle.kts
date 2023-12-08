@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.alyssajane.block6.p1.quiz"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.alyssajane.block6.p1.quiz"
